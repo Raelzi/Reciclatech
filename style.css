@@ -17,7 +17,7 @@ header {
   align-items: center;
   margin-left: 1rem;
   width: 50vw;
-  margin: 10px;
+  margin: 1rem;
 }
 .container-logo img {
   width: 2rem;
@@ -81,15 +81,16 @@ main {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  width: 100%;
 }
 
 #section1 {
   display: flex;
   flex-direction: row;
-  width: 100%;
   margin-top: 5rem;
   margin-left: 5rem;
   margin-right: 5rem;
+  width: 100%;
 }
 
 #section2 {
@@ -103,7 +104,7 @@ main {
 }
 
 #section3 {
-  margin: 7rem;
+  margin: 5rem;
   width: 50vw;
 }
 #section3 h2 {
@@ -133,10 +134,32 @@ main {
   font-style: normal;
 }
 
+#section4-1 {
+  margin: 7rem;
+  width: 50vw;
+}
+#section4-1 h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+#section4-1 h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
 #section5 {
   padding: 3rem;
   margin-top: 4rem;
   background-color: rgb(243, 243, 243);
+}
+
+#section6 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #div-topo {
@@ -144,7 +167,7 @@ main {
   flex-direction: column;
   text-align: center;
   margin: 5rem;
-  width: 30;
+  width: 30vw;
 }
 #div-topo h3 {
   font-size: 3rem;
@@ -196,11 +219,8 @@ main {
   flex-direction: column;
 }
 .div2 h2 {
-  font-size: 70px;
+  font-size: 4rem;
   margin-left: 2rem;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
   color: #1f2937;
 }
 .div2 p {
@@ -215,7 +235,7 @@ main {
 }
 
 #div3 img {
-  width: 30vw;
+  width: 100%;
 }
 
 .botao-container {
@@ -319,7 +339,6 @@ main {
 
 .card {
   background-color: rgb(243, 243, 243);
-  width: 30vw;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -327,7 +346,6 @@ main {
   padding: 4rem;
   border-radius: 0.7rem;
   margin: 4rem;
-  text-align: justify;
 }
 .card p {
   margin-top: 1rem;
@@ -567,4 +585,373 @@ footer {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+@media (max-width: 450px) {
+  header {
+    flex-direction: column;
+    margin-inline: 1rem;
+    width: 90%;
+  }
+  .container-logo img {
+    width: 3rem;
+    height: 3rem;
+  }
+  .container-logo h1 {
+    font-size: 2rem;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .header ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .header li {
+    padding: 0.1rem;
+    margin-right: 1rem;
+    white-space: nowrap;
+  }
+  .header a {
+    font-size: 1rem;
+    width: 60vw;
+  }
+  .header button {
+    width: 35vw;
+    height: auto;
+    margin-left: 1rem;
+    padding-inline: 1rem;
+    white-space: nowrap;
+  }
+  #section1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    width: 100%;
+  }
+  #section2 {
+    padding: 1rem;
+  }
+  #section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+    width: 90vw;
+  }
+  #section3 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+  }
+  #section3 h3 {
+    font-size: 1.5rem;
+    margin-left: 3rem;
+  }
+  #section4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 0rem;
+    background-color: rgb(243, 243, 243);
+  }
+  #section4 h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    width: 100%;
+  }
+  #section4 h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+  }
+  #section4-1 {
+    margin: 1rem;
+    width: 100vw;
+    text-align: center;
+  }
+  #section4-1 h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    text-wrap: nowrap;
+  }
+  #section4-1 h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+    text-wrap: nowrap;
+  }
+  #section5 {
+    padding: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .div2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2rem;
+    align-items: center;
+  }
+  .div2 h2 {
+    font-size: 2rem;
+    margin-left: 0rem;
+  }
+  .div2 p {
+    width: 100%;
+    height: auto;
+    font-size: 1.1rem;
+    margin-left: 0rem;
+  }
+  .botao-container {
+    gap: 2rem;
+  }
+  .botaobranco {
+    width: 50vw;
+    height: 8vh;
+    margin-left: 0%;
+    font-size: 1.1rem;
+  }
+  .botaoverde {
+    width: 50vw;
+    height: 8vh;
+    margin-left: 0%;
+    font-size: 1.1rem;
+  }
+  .botaoverde2 {
+    width: 50vw;
+    height: 8vh;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+  }
+  #div3 img {
+    width: 90vw;
+    margin-top: 1rem;
+  }
+  .retangle {
+    padding: 1rem;
+  }
+  .card-titulo h3 {
+    font-weight: 300;
+    font-size: 30px;
+    color: #16a34a;
+  }
+  .card-titulo2 h3 {
+    font-weight: 300;
+    font-size: 30px;
+    color: #2563eb;
+  }
+  .section-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    margin: 2rem;
+    margin-left: 3rem;
+  }
+  .card p {
+    font-size: 1.1rem;
+    width: 60vw;
+  }
+  .span p {
+    width: 80vw;
+  }
+  .flex {
+    display: flex;
+    align-items: left;
+    margin: 0.5rem;
+    width: 100vw;
+    height: auto;
+  }
+  .nverde {
+    width: 2rem;
+    height: 2rem;
+  }
+  .nverde h3 {
+    font-weight: 500;
+  }
+  .nazul {
+    width: 2rem;
+    height: 2rem;
+  }
+  .nazul h3 {
+    font-weight: 500;
+  }
+  .card-meio {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-meio p {
+    font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .card-meio h4 {
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .flex-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card2 {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+  .card2 h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 1rem;
+  }
+  .card2 p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+  .card2 button {
+    width: 50%;
+    padding: 0.9rem;
+    margin: 1rem;
+  }
+  #div-topo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem;
+    width: 100vw;
+  }
+  #div-topo h3 {
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    width: 100%;
+  }
+  #div-topo p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #div-bottom {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #div-bottom h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  #div-bottom p {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .card-comentario {
+    width: 100vw;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 2rem;
+  }
+  .card-comentario img {
+    width: 30vw;
+  }
+  .card-comentario p {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+  .alinhador {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    text-align: left;
+    margin-top: 1rem;
+  }
+  .alinhador img {
+    margin: 0;
+    margin-right: 1rem;
+    width: 15vw;
+    height: auto;
+  }
+  .alinhador p {
+    font-size: 1.1rem;
+    padding: 0;
+  }
+  .alinhador h4 {
+    font-size: 1rem;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: 0rem;
+    justify-content: space-around;
+  }
+  .footer ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    list-style-type: none;
+  }
+  .footer p {
+    width: 60%;
+  }
+  .footer h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 1.2rem;
+  }
+  .footer img {
+    width: 9rem;
+    margin-bottom: 1rem;
+  }
+  .menu-bottom {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #afafaf;
+  }
+  .icons img {
+    width: 2rem;
+    margin: 0.7rem;
+  }
+  .footer-end {
+    display: flex;
+    text-align: center;
+  }
+  .footer-end p {
+    font-size: 0.8rem;
+    margin: 1rem;
+    color: #afafaf;
+  }
 }/*# sourceMappingURL=style.css.map */
