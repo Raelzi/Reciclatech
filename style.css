@@ -90,7 +90,6 @@ main {
   margin-top: 5rem;
   margin-left: 5rem;
   margin-right: 5rem;
-  width: 100%;
 }
 
 #section2 {
@@ -587,7 +586,7 @@ footer {
   font-style: normal;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   header {
     flex-direction: column;
     margin-inline: 1rem;
@@ -604,6 +603,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    width: 100%;
   }
   .header ol {
     display: flex;
@@ -620,9 +620,8 @@ footer {
     width: 60vw;
   }
   .header button {
-    width: 35vw;
+    width: 39vw;
     height: auto;
-    margin-left: 1rem;
     padding-inline: 1rem;
     white-space: nowrap;
   }
@@ -645,7 +644,7 @@ footer {
     justify-content: center;
     text-align: center;
     margin: 1rem;
-    width: 90vw;
+    width: 100vw;
   }
   #section3 h2 {
     font-size: 2.5rem;
